@@ -1,0 +1,15 @@
+/* access items by ID using '#', entire class using'.'*/
+.root{
+    -fx-background-color: "black";
+}
+
+.label{
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: "white"
+}
+
+
+#titleLabel{
+    -fx-font-size: 60;
+}

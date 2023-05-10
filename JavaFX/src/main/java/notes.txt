@@ -1,0 +1,13 @@
+nodes are like components
+group is a group of nodes (like a panel)
+stage is like a JFrame
+
+Nodes are added to Group, Group is added to Scene, Scene is added to Stage
+.root in the css represents the first node that is added to the Scene. refer to scene diagram
+
+FXMLLoader is responsible for loading the fxml file and also instantiating any controllers
+
+Panes:
+* AnchorPane: specific locations for nodes
+* FlowPane: nodes are in a linear, flow-like layout (alignment & orientation can be set)
+* GridPane: nodes are placed in a flexible grid of columns and rows (e.g. 3x4)
